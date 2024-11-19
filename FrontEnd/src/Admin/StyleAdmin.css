@@ -1,0 +1,222 @@
+/* Add Doctor & Add Teaching assistent & student*/
+.Main-admin{
+	background-color: #285475 ;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	padding-top: 100px;
+}
+.logo1-admin{
+	margin-top: 20px;
+	width: 150px;
+	height: 70px;
+	flex-shrink: 0;
+	
+}
+.screen-admin{
+	display: block;
+	position: fixed;
+	width: 1200px;
+	height: 680px;
+	flex-shrink: 0;
+	border-radius: 40px;
+	background: #FFF;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	margin-left: 180px;
+
+}
+.screen-admin-stu{
+	display: block;
+	position: fixed;
+	width: 1200px;
+	height: 695px;
+	flex-shrink: 0;
+	border-radius: 40px;
+	background: #FFF;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	margin-left: 180px;
+}
+.Teshchin-txt{
+	color: #000;
+	font-size: 36px;
+	line-height: normal;
+	margin-left:7%;
+	margin-top: 50px;
+	font-weight: 600;
+	font-family: auto;
+}
+.headTxt{
+	color: #000;
+	font-size: 36px;
+	line-height: normal;
+	margin-left:13%;
+	margin-top: 20px;
+	font-weight: 600;
+	font-family: auto;
+
+}
+.headTxt-admin{
+	color: #000;
+	font-size: 36px;
+	line-height: normal;
+	margin-left:13%;
+	margin-top: 50px;
+	font-weight: 600;
+	font-family: auto;
+}
+.hr-admin{
+	border: 0;
+	border-color: #285475;
+	background-color: #285475;
+	width: 130px;
+	height: 2px;
+	margin-left: 15%;
+}
+.id-admin{
+	width: 420px;
+	height: 45px;
+	flex-shrink: 0;
+	border-radius: 20px;
+	border: 1px solid #285475;
+	background: #FFF;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	text-align: center;
+	margin-left: 3%;
+	margin-bottom: 15px;
+	margin-top: 25px;	
+}
+.input-admin{
+width: 420px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 20px;
+border: 1px solid #285475;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+text-align: center;
+margin-left: 3%;
+margin-bottom: 15px;	
+
+}
+
+.submit-admin{
+	width: 200px;
+	height: 50px;
+	flex-shrink: 0;
+	border-radius: 25px;
+	border: 1px solid rgba(0, 0, 0, 0.20);
+	background: #B6DCE9;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	margin-left: 16.3%;
+	font-size: larger;
+	font-family: sans-serif;
+}
+.select-admin{
+	border: 1 solid;
+	margin-left: 18%;
+	width: 180px;
+	height: 40px;
+	background-color: #B6DCE9;
+	color:black;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: -20px;
+}
+
+.error-admin{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+.logphoto-admin{
+	width: 45%;
+	height: 94%;
+	right: 30px;
+	margin-top: 20px;
+	border-radius: 20px;
+	background-color: #B6DCE9;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	position: absolute;
+
+}
+.logphoto-admin img{
+	width: 100vh;
+	height: 70vh;
+	margin-top: 6%;
+	margin-left: -240px;
+	flex-shrink: 0;
+
+}
+.submit-admin:hover{
+	background-color: #5CA3DC;
+}
+.signinError1{
+	margin-left: 170px;
+	color: red;
+	margin-top: -20px;
+}
+.signinError2{
+	margin-left: 110px;
+	color: red;
+	margin-top: -20px;
+	margin-bottom: 25px;
+}
+/* upload pages */
+
+.education img{
+  width: 110vh;
+  height: 55vh;
+  background-color: rgba(245, 245, 245, 0.58);
+	margin-left: 20%;
+  transform: translate(0,-570px);
+  border-radius: 30px;
+}
+
+.adminImage img{
+	width: 100%;
+	height: 750px;
+	filter: brightness(90%);
+	box-shadow : rgba(0, 0, 0, 0.735);
+	
+
+}
+.head-textAdmin{
+	position: relative;
+	display: block;
+	padding-top: 500px;
+	margin: 30px;
+	margin-bottom: 50px;
+	margin-top: -450px;
+	font-family: system-ui;
+}
+
+.head-textAdmin hr{
+	border: 0;
+	border-color: #285475;
+	background-color: #285475;
+	width: 100px;
+	height: 2px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.homeHead-text{
+	margin: 30px;
+	margin-top: -160px;
+	font-family: system-ui;
+}
+.homeHead-text hr{
+	border: 0;
+	border-color: #285475;
+	background-color: #285475;
+	width: 100px;
+	height: 2px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.login-admin{
+	margin-left: 80px;
+}
+
+/**/

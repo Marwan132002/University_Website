@@ -1,0 +1,45 @@
+.account-screen{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.account-txt{
+  font-family: sans-serif;
+  margin: 30px;
+  margin-top: 7%;
+}
+
+.account-txt hr{
+  border: 0;
+  border-color: #285475;
+  background-color: #285475;
+  width: 100px;
+  height: 2px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.account-table{
+  width: 80%;
+  table-layout: fixed;
+  margin-left: 10%;
+  margin-top: 50px;
+  margin-bottom: 300px;
+  border-spacing: 0;
+} 
+.account-table th,
+.account-table td{
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align:center;
+
+}
+.account-table th{
+    background-color: #5390c2af;
+    color: #fff;
+    text-align: center;
+}
+.account-table td{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,48 @@
+.attendance{
+    margin-left: 2%;
+    margin-top: 7%;
+}
+.attendance hr{
+  border: 0;
+  border-color: #285475;
+  background-color: #285475;
+  width: 120px;
+  height: 2px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.atten-table{
+    width: 80%;
+    table-layout: fixed;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    border-spacing: 0;
+    }
+.atten-table th,td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align:center;
+        
+    }
+.atten-table th{
+      background-color: #5390c2af;
+      color: #fff;
+      text-align: center;
+      
+    }
+.atten-table td{
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    } 
+.atten-img {
+    width: 145vh;
+    height: 65vh;
+    display: flex;
+    background-color: #80a6c6c1;
+    direction: ltr;
+    margin-left: 330px;
+    padding-left: 500px;
+    border-top-left-radius:400px ;
+    }

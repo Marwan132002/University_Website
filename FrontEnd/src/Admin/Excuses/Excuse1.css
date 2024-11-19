@@ -1,0 +1,36 @@
+.excuses-container {
+    padding: 20px;
+   }
+   
+   .excuses-list {
+    list-style-type: none;
+    padding: 0;
+   }
+   
+   .excuse-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+   .lists{
+    height: 375px;
+    width: 80%;
+    border: 1px solid rgb(142, 140, 140);
+    margin-left: 120px;
+    border-radius: 30px;
+   }
+.excuses-list p{
+    display: inline-block;
+    padding:0 225px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.excuses-list button{
+    margin-left: 95px;
+    width: 100px;
+    border: 3px solid rgb(65, 152, 199) ;
+    background-color: rgb(59, 152, 239);
+    border-radius: 8px;
+    color: rgb(233, 233, 233);
+}   

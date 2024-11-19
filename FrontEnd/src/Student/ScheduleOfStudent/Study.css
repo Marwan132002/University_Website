@@ -1,0 +1,48 @@
+
+.studentTxt{
+    font-family: sans-serif;
+    margin: 30px;
+    margin-top: 7%;
+}
+.studentTxt hr{
+  border: 0;
+  border-color: #285475;
+  background-color: #285475;
+  width: 140px;
+  height: 2px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.student-table{
+  width: 75%;
+  table-layout: fixed;
+  margin-left: 10%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-spacing: 0;
+  }
+.student-table th,
+.student-table td{
+  border: 1px solid black;
+  padding: 0.5rem;
+  text-align:center;
+      
+  }
+
+.student-table th{
+    background-color: #5390c2af;
+    color: #fff;
+    text-align: center;
+    
+  }
+.student-table td{
+    text-overflow: ellipsis;
+  } 
+.schedule-txt{
+  margin-left: -100px;
+  font-size: xx-large;
+  text-align: center;
+  font-family: sans-serif;
+
+}
+ 

@@ -1,0 +1,49 @@
+.grades-txt{
+  font-family: sans-serif;
+  margin: 30px;
+  margin-top: 7%;
+}
+
+.grades-txt hr{
+  border: 0;
+  border-color: #285475;
+  background-color: #285475;
+  width: 100px;
+  height: 2px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.grades-table{
+  width: 60%;
+  table-layout: fixed;
+  margin-left: 20%;
+  margin-top: 50px;
+  margin-bottom: 300px;
+  border-spacing: 0;
+} 
+.grades-table th,td{
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align:center;
+
+}
+.grades-table th{
+    background-color: #5390c2af;
+    color: #fff;
+    text-align: center;
+}
+.grades-table td{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.grad-img {
+  width: 125vh;
+  height: 50vh;
+  display: flex;
+  background-color: #80a6c6c1;
+  direction: ltr;
+  margin-left: 34%;
+  padding-left: 500px;
+  border-top-left-radius:400px ;
+  }

@@ -1,0 +1,25 @@
+.main-screen{
+  margin-top: 80px;
+}
+
+.department-txt{
+  margin: 50px;
+  padding-bottom: 15%;
+}
+.department-txt h3{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+}
+.de-txt{
+  font-weight: 600;
+}
+.dep-img{
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  width: 90vh;
+  height: 80vh;
+  background-color: #8ec1d1c0;
+  float:right;
+  margin-top: -700px;
+}

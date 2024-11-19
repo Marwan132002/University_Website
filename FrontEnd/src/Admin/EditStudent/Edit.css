@@ -1,0 +1,139 @@
+.EditTxt{
+  margin-top: 8%;
+  margin-left: 3%;
+  font-family: system-ui;
+}
+.EditTxt hr{
+	border: 0;
+	border-color: #285475;
+	background-color: #285475;
+	width: 100px;
+	height: 2px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.EditSearch{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #416987;
+    border: 0 solid #416987;
+    margin-left: 35%;
+    margin-top: 3%;   
+    padding-left: 20px;
+    color: white;
+    align-items: center;
+}
+input[type="tel"]::-webkit-input-placeholder{
+  color: #A0B4C3;
+}
+.EditSearch-btn{
+    height: 35px;
+    width: 110px;
+    background-color: #477AA2;
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    border: 0 solid;
+    margin-left: 52.5%;
+    transform: translateY(-66px); 
+  position: absolute;  
+}
+.EditSearch-btn:hover{
+  background-color: #629dcab3;
+}
+
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  
+  .search-results {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .search-results li {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .search-results li:hover {
+    background-color: #e5e5e5;
+  }
+  
+ 
+  .edit-user-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .edit-user-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .edit-user-form input[type="text"],
+  .edit-user-form input[type="email"],
+  .edit-user-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .edit-user-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .editform{
+    width: 40px;
+    margin-left: 45%;
+    display: block;
+    position: relative;
+  }
+
+  .EditStudentLabel{
+    width: 270px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .labeltxt{
+    width: 200px;
+    font-size: large;
+    font-family: sans-serif;
+    margin: 5px;
+  }
+  .EditStu-btn{
+    
+    display:inline-block;
+    position: relative;
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: #477AA2;
+    border-radius: 10px;
+    border: 0 solid ;
+    color: white;
+    font-size: larger;
+
+  } 

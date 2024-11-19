@@ -1,0 +1,12 @@
+.navbar-nav .nav-item {
+  padding: 0 55px  0 ;
+  font-size: 20px;
+}
+
+.collapse a{
+  color: black;
+
+}
+.collapse a:hover{
+  color: rgba(0, 0, 0, 0.582);
+}

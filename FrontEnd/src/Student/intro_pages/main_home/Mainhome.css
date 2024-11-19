@@ -1,0 +1,158 @@
+.home_links a {
+  display: inline-block;
+  padding: 0 60px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+  transform: translate(0px,-100px);
+}
+.home_links{
+margin-left: 30%;
+
+}
+.homelink{
+  margin-left: 15%;
+}
+.home_links a:hover {
+  background-color: #ddd;
+}
+.homelink a {
+  display: inline-block;
+  padding: 0 60px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+  transform: translate(0px,-100px);
+}
+
+.homelink a:hover {
+  background-color: #ddd;
+}
+.homehr {
+  width: 50%;
+  color: #760004;
+  opacity: 0.7;
+  margin-left: 25%;
+  border:solid;
+  transform: translate(0px,-100px);
+ 
+ }
+ .image img{
+  width: 100%;
+  height: 85vh;
+ }
+ .head-txt{
+  font-family: sans-serif;
+  margin: 30px;
+
+}
+.head-txt hr{
+  border: 0;
+  border-color: #285475;
+  background-color: #285475;
+  width: 100px;
+  height: 2px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.image-home img{
+  width: 100%;
+  height: 85vh;
+  filter: brightness(50%);
+  box-shadow : rgba(0, 0, 0, 0.735);
+
+}
+.mainhome-txt{
+font-size: 45px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 500;
+box-sizing: border-box;
+background: rgba(0, 0, 0, 0.717) ;
+color: #fff;
+border-radius: 20px;
+padding: 40px;
+text-align: center;
+transform: translate(400px,-430px);
+width: 90vh;
+
+}
+.flex-h{
+
+width: 100%;
+font-size: 24px;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+transform: translate(0px,-80px);
+
+
+}
+.flex-h a{
+text-decoration: none;
+color: black;
+display: inline-block;
+padding: 40px;
+
+
+}
+.flex-h a:hover{
+color: rgba(136, 136, 132, 0.826);
+}
+.intro-txt{
+  display: block;
+  background-color: #285475;
+  font-family: sans-serif;
+  padding: 50px;
+  margin-top: -200px;
+  color: white;
+  font-size: large;
+}
+.intro-txt h2,h3{
+  text-align: left;
+  margin-top: 60px;
+}
+.intro-txt p{
+  text-align: center;
+  margin-top: -90px;
+  
+}
+
+.objectives-txt p{
+  font-size: larger;
+  margin-left: 3%;
+  padding: 5px;
+}
+.objectives-txt h2,h3{
+  box-sizing: border-box;
+  margin: 25px;
+  font-family: sans-serif;
+}
+.main-hr{
+
+border: 2 solid black;
+  border-color: black;
+  background-color:black;
+  width: 50%;
+  margin-top: 5px;
+  margin-left: 25%;
+
+}
+
+
+.department-txt h2{
+  padding-top: 30px;
+  margin-left: 15px;
+}
+.department-txt p{
+  font-size: larger;
+  margin-left: 5%;
+}
+.department-txt h3{
+  margin-left: 3%;
+}

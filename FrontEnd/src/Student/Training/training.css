@@ -1,0 +1,61 @@
+.image{
+  margin-top: 70px;
+}
+.eduImage img{
+  width: 120vh;
+  height: 50vh;
+  background-color: rgba(245, 245, 245, 0.58);
+  transform: translateY(-550px);
+  border-radius: 30px;
+  margin-left: 17%;
+}
+.head-text{
+  margin-top: -390px;
+}
+.trdata {
+  display: grid;
+  margin-top: -30px;
+  grid-template-columns: repeat(3,auto);
+  padding: 50px;
+}
+.trdata div {
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+  
+}
+.trdata div:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.training-btn{
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  color: #fff;
+  background-color: #5CA3DC;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-left: 2%;
+  
+}
+.training-btn:hover{
+  color: #fff;
+  background-color: #5ca2dcb7;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.trdata h2 {
+  margin-top: 0;
+}
+
+.trdata p {
+  margin-bottom: 10px;
+}
+.contect-tr b{
+  /* if you want b have color */
+  color: #4376a0;
+}

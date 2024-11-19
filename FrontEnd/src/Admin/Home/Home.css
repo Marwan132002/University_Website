@@ -1,0 +1,101 @@
+.home {
+  width: 100%;
+  max-height: 60vb;
+    transition: transform 0.5s ease;
+}
+
+.home:hover {
+    transform: scale(1.1);
+}
+
+  
+.home_links a {
+  display: inline-block;
+  padding: 0 60px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.home_links{
+margin-left: 200px;
+}
+.homelink{
+  margin-left: 180px;
+}
+.home_links a:hover {
+  background-color: #ddd;
+}
+
+
+
+.homelink a {
+  display: inline-block;
+  padding: 0 60px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.homelink a:hover {
+  background-color: #ddd;
+}
+.ne{
+  width: 270px;
+     height: 3px;
+     background: #9FC5D2;
+     margin-left: 5px;
+     margin-bottom: 40px;
+     }
+     .home-data1 {
+      width: 28%;
+      margin: 1%;
+      border: 1px solid #ddd;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+      float: left;
+      
+      
+    }
+    .home-data1 img{
+      width: 100%;
+    }
+    .home-data1 h2 {
+      margin: 10px 0;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      color: #194d5f;
+      font-size: 35px;
+    }
+    
+    .home-data1 pre {
+      margin: 10px;
+      height: 100px;
+      font-size: 30px;
+      overflow: hidden;
+      justify-content: center;
+      font-family: 'Times New Roman', Times, serif;
+      display: none;
+
+
+    }
+    .home-data1:hover pre {
+      display: block;
+      
+    }
+    .home-data1:hover{
+      width: 30%;
+    }
+    @media (max-width: 992px) {
+      .home-data1 {
+        width: 45%;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .home-data1 {
+        width: 100%;
+      }
+    }

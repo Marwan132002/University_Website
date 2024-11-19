@@ -1,0 +1,15 @@
+.primaryButton {
+    background-color: #5390c2af !important;
+    color: #fff !important;
+}
+
+.primaryButton:hover,
+.primaryButton:focus-visible,
+:not(.btn-check)+.primaryButton:active {
+    background-color: #5390c2af !important;
+    color: #fff !important;
+    border-color: var(--bs-btn-hover-border-color) !important;
+}
+.w-50 border p-3 mx-auto{
+    padding: 50px 0;
+}

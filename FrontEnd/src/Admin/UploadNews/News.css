@@ -1,0 +1,100 @@
+
+.excuses-text{
+  margin-top: 6%;
+  margin-left: 2%;
+  font-family: sans-serif;
+}
+.excuses-text hr{
+  border: 0;
+  border-color: #285475;
+  background-color: #285475;
+  width: 100px;
+  height: 2px;
+  margin-top: 5px;
+  margin-left: 3px;
+}
+textarea{
+  width: 25%;
+  height: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 10px;
+  transform: translate(40px,0px);
+  display: block;
+  position: absolute;
+  
+
+  
+}
+.excu{
+  width: 80vh;
+  height: 85vh;
+  background-color: #9FC5D2;
+  display: flex;
+  margin-left: 58%;
+  margin-top: -80px;
+  padding-top: 150px;
+  border-top-left-radius: 500px;
+}
+.excu img{
+    width: 80vh;
+    height: 60vh;
+    margin-left: 20vh;
+
+}
+.btn-warning{
+  position: relative;
+  padding: 25px 70px;
+  font-size: 20px;
+  line-height: 1.5;
+  border-radius: 3px;
+  color: black;
+  background-color: #D5E2EC;
+  border: 0;
+  overflow: hidden;
+  margin-left: 50px;
+  transform: translate(55px,-210px);
+  border-radius: 15px;
+}
+
+.btn-warning input[type="file"] {
+  cursor: pointer;
+  position: absolute;
+  left: 20;
+  top:0%;
+  transform: scale(6);
+  opacity: 0;
+}
+.uploadfile-btn{
+  width: 150px;
+  height: 50px;
+  background-color: #5CA3DC;
+  border: 0 solid;
+  border-radius: 10px;
+  color: #FFF;
+  font-size: larger;
+  transform: translate(140px,-190px);
+  position: absolute;
+  margin-left: 15px;
+
+}
+.reply-text{
+  margin-left: 6%;
+  margin-top: -260px ;
+  transform: translateY(-30px);
+
+}
+.reply-text a{
+  color: black;
+  text-decoration: none;
+  font-size:x-large;
+  font-family: sans-serif;
+
+  
+}
+
+.coi{
+  margin-left: 149px;
+  margin-bottom: 32px;
+}

@@ -1,0 +1,74 @@
+.subo{
+    background: #5CA3DC;
+    width: 300px;
+}
+.delobu{
+    background: #5CA3DC;
+    color:black;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-color:#5CA3DC ;
+    box-shadow: 5px #5CA3DC;
+}
+.delobu:hover {
+    background: #3294e374;
+    color:black;
+    box-shadow: 5px #3294e374;
+}
+
+
+
+
+.show1,th,td{
+    border: 5px solid black;
+}
+.show1 tbody td{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.confirmo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .confirmo2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .confirmo2 h2 {
+    margin-top: 0;
+  }
+  
+  .confirmo2 button {
+    margin-right: 10px;
+  }
+  .drop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  
+  .blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    z-index: -1;
+  }

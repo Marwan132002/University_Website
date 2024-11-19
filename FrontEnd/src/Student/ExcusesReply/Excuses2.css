@@ -1,0 +1,39 @@
+.excuses-container {
+    padding: 0;
+   }
+   
+   .excuses-list {
+    list-style-type: none;
+    
+}
+   
+   .excuse-item {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding-top: 15px;
+   }
+   .lists{
+    height: auto;
+    width:85%;
+    border: 2px solid rgb(142, 140, 140);
+    border-radius: 30px;
+    
+
+   }
+
+   .exc-txt{
+     text-align: center;
+   }
+
+   .hw{
+    border: 0;
+    border-color: #285475;
+    background-color: #285475;
+    width: 80px;
+    height: 2px;
+    margin-top: 5px;
+    margin-left: 10px;
+   }
+
